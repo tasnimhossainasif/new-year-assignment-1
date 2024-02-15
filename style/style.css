@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* gogole font */
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.header-section{
+    /* /* width: 1320; */
+    height: 600px;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font-size: 40px;
+    margin: 30px;
+    padding: 10px;
+    background-image: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* main section start */
+.all-categories{
+    width: 802;
+    height: 780;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.all-categories > h1{
+    color: red;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+.all-categories > p{
+    color: red;
+    padding: 5px;
+    
+    
+}
+.all-categories > h3{
+    
+    padding: 5px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* midnight party */
+.join-containar{
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    background-image: url("/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    align-items: center;
+   
+}
+
+.Welcoming-{
+    font-size: 110px;
+}
+.join-btn{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    font-weight: 800;
+    
+}
+
+/* .place {
+    
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color:#FF0000;
+    height: 300px;
+    margin: 20px;
+
+} */
+.place-container {
+    
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color:lemonchiffon;
+    height: 300px;
+    margin: 20px;
+    font-size: 30px;
+
+}
+.time-{
+    color: #FF0000;
+}
+.join-now{
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.coming-soon{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.best-offer{
+    margin-top: 90px;
+    padding: 20px;
+    
+    align-items: center;
+}
+.best-offer > h1{
+    font-size: 30px;
+    
+    padding-top: 10px;
+}
+.new-year-styel{
+    margin-top: 90px;
+    padding: 20px;
+    
+    align-items: center;
+}
+.box{
+    width: 500px;
+    height: 400px;
+}
+.box >h2{
+    color: red;
+    padding: 10px;
+    font-size: 35px;  
+    
+}
+.box> h6{
+    color: #FF0000;
+    font-size: 15px;
+    padding: 10px;
+}
+.Ellipse-img{
+    padding: 15px 0 0 25px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+
+
+
+
