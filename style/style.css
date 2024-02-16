@@ -13,8 +13,9 @@
     /* /* width: 1320; */
     height: 600px;
     text-align: center;
-    color: rgb(245, 245, 245);
-    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
     margin: 30px;
     padding: 10px;
     background-image: url("../images/Banner\ Image.png");
@@ -157,6 +158,125 @@
     border: 10px solid red;
     border-radius: 50%;
 }
+
+/* portfolio related */
+.best-gifts{
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    width: 50%;
+}
+.best-gifts> h6{
+    color: #FF0000;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.best-gifts>h1{
+    font-size: 40px;
+    padding: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.column{
+    padding: 10px;
+   
+   
+}
+.column:hover{
+    background: #e1e1e1;
+    border: 2px solid #d0d0d0;
+}
+
+/* subscribe-news */
+.subscribe-news{
+    height: 400px;
+    margin: 80px 20px 20px 20px;
+    padding: 35px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+.subscribe-news> h1{
+    font-size: 35px;
+    padding: 5px;
+}
+
+.subscribe-news>p {
+    padding: 10px;
+}
+.subscribe-news > input{
+    padding: 17px;
+    width: 25%;
+    border: #d0d0d0;
+    border: 10px sollid white;
+    border-radius:30px 0 0 30px ;
+}
+.subscribe-news > button{
+    position: absolute;
+    padding: 12px;
+    border: 5px solid red;
+    border-radius: 0 30px 30px 0;
+    background-color: #FF0000;
+    color: white;
+}
+
+/* footer section */
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.adress-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.adress-number{
+    padding:10px 0 15px 5px;
+}
+.adress-section>h6{
+    padding: 0 0 10px 0;
+    margin: 10px;
+}
+    
+.icon-img{
+    vertical-align:middle;
+    padding: 10px;
+    
+    
+}
+hr{
+    color: burlywood;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.social-icon{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    /* margin: 40px 20px 10px 220px; */
+}
+.all-rights{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 50px 10px;
+    padding: 10px;
+    
+}
+
 
 
 
